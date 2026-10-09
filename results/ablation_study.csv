@@ -1,0 +1,5 @@
+Model,accuracy,precision,sensitivity,specificity,f1_score,roc_auc,brier_score,tp,fp,tn,fn,total_samples
+Baseline CNN (ResNet-18),0.7688,0.7609,0.9891,0.2056,0.8601,0.7883,0.1523,455,143,37,5,640
+Baseline + SE Channel Attention,0.7719,0.7794,0.9522,0.3111,0.8571,0.788,0.1536,438,124,56,22,640
+Baseline + Multi-Scale Fusion,0.7562,0.7764,0.9283,0.3167,0.8455,0.7786,0.1557,427,123,57,33,640
+Proposed (Multi-Scale + SE + CORAL),0.7672,0.7686,0.9674,0.2556,0.8566,0.7536,0.1588,445,134,46,15,640

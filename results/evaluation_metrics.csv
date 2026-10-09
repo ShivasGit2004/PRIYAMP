@@ -1,0 +1,3 @@
+Model,accuracy,precision,sensitivity,specificity,f1_score,roc_auc,brier_score,tp,fp,tn,fn,total_samples
+Baseline CNN,0.7688,0.7609,0.9891,0.2056,0.8601,0.7883,0.1523,455,143,37,5,640
+Proposed Robust PCOSNet,0.7672,0.7686,0.9674,0.2556,0.8566,0.7536,0.1588,445,134,46,15,640
